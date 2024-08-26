@@ -19,7 +19,6 @@ array([ 4, 18, 40, 70, 99])
 new_variable = np.array([5.8, 9, 7, 5])
 new_variable
 ```
-
 - Output
 ```python
 array([5.8, 9. , 7. , 5. ])
@@ -29,27 +28,25 @@ array([5.8, 9. , 7. , 5. ])
 ```python
 new_variable2 = np.array([5.8, 9, 7, 5], dtype = "int")
 ```
-
 - Output
 ```python
 array([5, 9, 7, 5])
 ```
 ---
-## Array with zeros function
+## Array with `zeros` function
 - In
 ```
 np.zeros(5)
 ```
-
 - Out
 ```python
 array([0., 0., 0., 0., 0.])
 ```
+
 - In
 ```
 np.zeros((3,5), dtype = "int")
 ```
-
 - Out
 ```python
 array([[0, 0, 0, 0, 0],
@@ -57,12 +54,11 @@ array([[0, 0, 0, 0, 0],
        [0, 0, 0, 0, 0]])
 ```
 ---
-## Array with ones function
+## Array with `ones` function
 - In
 ```
 np.ones((3,4,5), dtype = "int")
 ```
-
 - Out
 ```python
 array([[[1, 1, 1, 1, 1],
@@ -79,4 +75,26 @@ array([[[1, 1, 1, 1, 1],
         [1, 1, 1, 1, 1],
         [1, 1, 1, 1, 1],
         [1, 1, 1, 1, 1]]])
+```
+---
+## Array with `full` function
+- In
+```
+np.full((2,3), 6, dtype = "float")
+```
+- Out
+```python
+array([[6., 6., 6.],
+       [6., 6., 6.]])
+```
+---
+## Array with `arange` function
+- In
+```
+np.arange(2, 10, dtype = "float")
+```
+- Out
+```python
+array([[6., 6., 6.],
+       [6., 6., 6.]])
 ```
