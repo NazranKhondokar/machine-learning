@@ -34,3 +34,26 @@ new_variable2 = np.array([5.8, 9, 7, 5], dtype = "int")
 ```python
 array([5, 9, 7, 5])
 ```
+---
+## Array with zero function
+- In
+```
+np.zeros(5)
+```
+
+- Out
+```python
+array([0., 0., 0., 0., 0.])
+```
+- In
+```
+np.zeros((3,5), dtype = "int")
+```
+
+- Out
+```python
+array([[0, 0, 0, 0, 0],
+       [0, 0, 0, 0, 0],
+       [0, 0, 0, 0, 0]])
+```
+
